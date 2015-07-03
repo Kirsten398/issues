@@ -17,3 +17,8 @@ Realized the cli_test.exs file had been saved in lib/issues/
 Ran "mix test" again - successful test, 4 tests run, 1 test failed as done in the book
 Part 1 Complete
 
+Input command "mix run -e 'Issues.CLI. run(["-h"])' - Compile error given
+Test run again - success
+Used mix run with -h again - Compile error given again: undefined function h/0
+Used mix run with --help - Syntax error given: syntax error before --
+Attempted to instigate the Undefined Function Error given at the end of the section - Compile error given once again
