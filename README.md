@@ -15,3 +15,5 @@ Ran command "mix test" - successful test, but only one test was run
 Realized the cli_test.exs file had been saved in lib/issues/
 	Moved cli_test.exs to test
 Ran "mix test" again - successful test, 4 tests run, 1 test failed as done in the book
+Part 1 Complete
+
