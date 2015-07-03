@@ -2,7 +2,7 @@ Issues
 ======
 
 The program that is covered by chapter 13 of the text "Programming Elixir"
-This shall server as a log of what I do during the course of the project, in case I need to go to someone for help
+This shall serve as a log of what I do during the course of the project, in case I need to go to someone for help
 
 Created new directory in Git Shell
 Committed new directory and files
