@@ -22,3 +22,6 @@ Test run again - success
 Used mix run with -h again - Compile error given again: undefined function h/0
 Used mix run with --help - Syntax error given: syntax error before --
 Attempted to instigate the Undefined Function Error given at the end of the section - Compile error given once again
+Copy-pasted code verbatim from book's example to see if I had mistyped anything
+	Code compiled and tested fine
+	mix run -e 'Issues.CLI.run(["-h"])' results in same Compile error I've been getting
