@@ -5,7 +5,7 @@ defmodule Issues.Mixfile do
 		[app:    :issues,
 		version: "0.0.1",
 		elixir:  "~> 1.0",
-		escript: escript_config
+		escript: escript_config,
 		deps:    deps]
 	end
 

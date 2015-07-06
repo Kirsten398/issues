@@ -1,9 +1,9 @@
-defmodule Issues.Tableformatter do
+defmodule Issues.TableFormatter do
 
 	import Enum, only: [ each: 2, map: 2, map_join: 3, max: 1 ]
 
 	def print_table_for_columns(rows, headers) do
-		data_by_columns = split_into_coumns(rows, headers)
+		data_by_columns = split_into_columns(rows, headers)
 		column_widths   = widths_of(data_by_columns)
 		format          = format_for(column_widths)
 		
@@ -19,7 +19,6 @@ defmodule Issues.Tableformatter do
 	end
   
 	def printable(str) when is_binary(str), do: str
-
 	def printable(str), do: to_string(str)
 
 	def widths_of(columns) do
