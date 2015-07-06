@@ -25,3 +25,5 @@ Attempted to instigate the Undefined Function Error given at the end of the sect
 Copy-pasted code verbatim from book's example to see if I had mistyped anything
 	Code compiled and tested fine
 	mix run -e 'Issues.CLI.run(["-h"])' results in same Compile error I've been getting
+mix run with empty argument prints desired usage
+mix run -e requires \" for arguments
