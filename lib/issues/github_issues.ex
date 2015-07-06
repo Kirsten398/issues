@@ -8,11 +8,11 @@ defmodule Issues.GithubIssues do
 		|> handle_response
 	end
 
-	def handle_response(%{status_code: 200, body: body}), do
+	def handle_response(%{status_code: 200, body: body}) do
 		{ :ok, :jsx.decode(body) }
 	end
 
-	def handle_response(%{status_code: ___, body: body}), do
+	def handle_response(%{status_code: ___, body: body}) do
 		{ :error, :jsx.decode(body) }
 	end
 	
