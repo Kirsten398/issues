@@ -25,5 +25,20 @@ Attempted to instigate the Undefined Function Error given at the end of the sect
 Copy-pasted code verbatim from book's example to see if I had mistyped anything
 	Code compiled and tested fine
 	mix run -e 'Issues.CLI.run(["-h"])' results in same Compile error I've been getting
-mix run with empty argument prints desired usage
+mix run with empty argument prints desired message
 mix run -e requires \" for arguments
+Added httpoison dependency
+Installed dependencies
+Part 2 Complete
+
+Created github_issues.ex
+Updated mix.exs
+Attempted to run Issues.GithubIssues.fetch("elixir-lang", "elixir") - received error that "the term 'issues.GithubIssues.fetch' is not recognized as the name of a cmdlet, function, script file, or operable program"
+Ran above command within mix run -e and received response similar, but not exact to what is said in the text
+Added jsx
+Modified github_issues, cli, mix, and config
+Modified cli.ex and cli_test.exs
+Ran mix test and received 1 failure not expected in text
+	Continuing, hoping it won't cause too much trouble right now
+Part 3 Complete
+
