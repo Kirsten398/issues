@@ -42,3 +42,5 @@ Ran mix test and received 1 failure not expected in text
 	Continuing, hoping it won't cause too much trouble right now
 Part 3 Complete
 
+Begin following instructions for part 4
+All seems to work
